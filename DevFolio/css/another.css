@@ -56,3 +56,5 @@ button{
     font-size:25px;
     cursor:pointer;
 }
+#popupContainer { z-index: 9999; }
+#popupContainer .popup { z-index: 10000; }
