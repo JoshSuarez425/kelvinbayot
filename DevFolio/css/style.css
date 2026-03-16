@@ -974,6 +974,69 @@ a:focus {
 
 
 /*******************************/
+******** Pricing CSS *********
+/*******************************/
+.pricing {
+    position: relative;
+    padding: 45px 0 15px 0;
+    background: #ffffff;
+}
+
+.pricing .pricing-item {
+    position: relative;
+    padding: 30px;
+    background: #f7f7f7;
+    border: 1px solid rgba(0, 0, 0, .08);
+    transition: .3s;
+    text-align: center;
+}
+
+.pricing .pricing-item:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 15px 40px rgba(0, 0, 0, .08);
+}
+
+.pricing .pricing-item h3 {
+    margin-bottom: 15px;
+    font-size: 22px;
+    font-weight: 600;
+    color: #414141;
+}
+
+.pricing .pricing-item .price {
+    margin: 20px 0;
+}
+
+.pricing .pricing-item .price h2 {
+    margin: 0;
+    font-size: 42px;
+    font-weight: 700;
+}
+
+.pricing .pricing-item .price span {
+    font-size: 18px;
+    font-weight: 600;
+    color: #414141;
+}
+
+.pricing .pricing-item ul {
+    padding: 0;
+    margin: 20px 0;
+    list-style: none;
+    text-align: left;
+}
+
+.pricing .pricing-item ul li {
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
+.pricing .pricing-item a.btn {
+    margin-top: 15px;
+}
+
+
+/*******************************/
 /*********** Team CSS **********/
 /*******************************/
 .team {
