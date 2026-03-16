@@ -309,10 +309,16 @@ a:focus {
     display: none;
 }
 
+
+
 .hero .hero-text .typed-cursor {
     font-size: 35px;
     font-weight: 300;
     color: #ffffff;
+}
+.container-fluid .container .footer-info .typed-text{
+    display: block;
+   
 }
 
 .hero .hero-btn .btn {
@@ -805,6 +811,129 @@ a:focus {
     .service .service-text p {
         font-size: 14px;
     }
+}
+
+
+/*******************************/
+/********* Pricing CSS *********/
+/*******************************/
+.pricing {
+    position: relative;
+    width: 100%;
+    padding: 45px 0 15px 0;
+    background: #f8f9fa;
+}
+
+.pricing .pricing-item {
+    position: relative;
+    margin-bottom: 30px;
+    background: #ffffff;
+    border: 1px solid #e9ecef;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: .3s;
+}
+
+.pricing .pricing-item:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.pricing .pricing-item h3 {
+    padding: 20px;
+    margin: 0;
+    background: #EF233C;
+    color: #ffffff;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.pricing .price {
+    padding: 20px;
+    text-align: center;
+    background: #f8f9fa;
+}
+
+.pricing .price h2 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: 700;
+    color: #EF233C;
+}
+
+.pricing .pricing-item ul {
+    list-style: none;
+    padding: 20px;
+    margin: 0;
+}
+
+.pricing .pricing-item ul li {
+    padding: 5px 0;
+    font-size: 16px;
+    color: #797979;
+}
+
+.pricing .pricing-item ul li:before {
+    content: '\f00c';
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    color: #EF233C;
+    margin-right: 10px;
+}
+
+@media (max-width: 575.98px) {
+    .pricing .pricing-item h3 {
+        font-size: 16px;
+    }
+    
+    .pricing .price h2 {
+        font-size: 20px;
+    }
+    
+    .pricing .pricing-item ul li {
+        font-size: 14px;
+    }
+}
+
+
+/*******************************/
+/******** Team CSS ********/
+/*******************************/
+.team {
+    overflow: hidden;
+}
+
+.team .team-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.team .team-item .team-img {
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.team .team-item .team-img img {
+    width: 100%;
+    height: 320px;
+    object-fit: cover;
+    display: block;
+    border-radius: 8px;
+}
+
+.team .team-item .team-content {
+    width: 100%;
+    color: black;
+    font-weight: 400;
+}
+.team .team-item .team-content:hover {
+    color: white;
 }
 
 

@@ -74,6 +74,18 @@
         });
     }
     
+    // Footer Typed Initiate
+    if ($('.footer .footer-info h2').length == 1) {
+        var typed_strings_footer = $('.footer .footer-info .typed-text').text();
+        var typed_footer = new Typed('.footer .footer-info h2', {
+            strings: typed_strings_footer.split(', '),
+            typeSpeed: 100,
+            backSpeed: 20,
+            smartBackspace: false,
+            loop: true
+        });
+    }
+    
     
     // Skills
     $('.skills').waypoint(function () {
