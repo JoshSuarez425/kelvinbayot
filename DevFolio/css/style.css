@@ -878,22 +878,22 @@ a:focus {
 
 .portfolio .portfolio-text {
     position: relative;
-    height: 60px;
     width: calc(100% - 30px);
     margin: -30px 15px 30px 15px;
     display: flex;
-    align-items: center;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding: 15px;
     background: #ffffff;
     box-shadow: 0 0 15px rgba(0, 0, 0, .12);
+    min-height: 140px;
 }
 
 .portfolio .portfolio-text h3 {
-    width: calc(100% - 70px);
     font-size: 18px;
     font-weight: 600;
-    margin: 0 0 0 15px;
-    white-space: nowrap;
-    overflow: hidden;
+    margin: 0;
+    line-height: 1.2;
 }
 
 .portfolio .portfolio-text a.btn {
